@@ -2,12 +2,17 @@
   "name": "test-realestate",
   "version": "1.0.0",
   "engines": {
-    "node": "10.15.1"
+    "node": "10.30.0"
   },
   "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
   "scripts": {
    
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
