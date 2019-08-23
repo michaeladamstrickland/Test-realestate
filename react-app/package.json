@@ -1,6 +1,9 @@
 {
   "name": "react-app",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "private": true,
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.1.1",
